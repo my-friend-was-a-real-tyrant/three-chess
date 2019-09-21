@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Form from './components/Form'
-import Func from './components/function'
+import {Func,Func1} from './components/function'
 const App: React.FC = () => {
     return (
         <div className="App">
@@ -11,6 +11,7 @@ const App: React.FC = () => {
                 {/*start*/}
                 <Form name={'chenjing'} age={30}/>
                 <Func name={'chenjing'} age={123}/>
+                <Func1 name={'CHENJING'} age={123124}/>
                 {/*end*/}
 
                 <img src={logo} className="App-logo" alt="logo"/>
