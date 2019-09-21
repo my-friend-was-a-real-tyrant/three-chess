@@ -21,7 +21,7 @@ const Func1: React.FunctionComponent<IProps> = ({age,name}) => {
     return (
         <div>
             {age} {name}
-            <p>{name1}</p>
+            <p>name1：{name1}</p>
         </div>
     )
 }
